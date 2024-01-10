@@ -1,0 +1,44 @@
+*{
+    font-family:  Verdana;
+}
+#prawy,#lewy{
+    background-color:  seagreen;
+    color:  white;
+    inline-size: 150px;
+    height: 260px;
+    font-size: 160%;
+}
+ #lewy{
+    width: 75%;
+    float: left;
+ }
+ #prawy{
+    float: right;
+    width: 25%;
+    text-align: right;
+ }
+ #glowny{
+    background-color:  mintcream;
+    padding: 80px;
+ }
+ #stopka1,#stopka2{
+    background-color: seagreen;
+    color: white;
+    width: 50%;
+    height: 70px;
+    text-align: center;
+  float: right;
+ }
+button,input{
+    margin-bottom: 20px;
+}
+img{
+    box-shadow: 15px 10px  dimgray;
+}
+a{
+    text-decoration: none;
+    background-color: mintcream;
+    color: seagreen;
+    padding:15px;
+    inline-size: 70%;
+}
