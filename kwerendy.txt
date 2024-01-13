@@ -1,0 +1,7 @@
+INSER INTO zawody_wedkarskie VALUES (NULL,2,4,"2021-09-28","Andrzej Nowak")
+
+SELECT id,data_zawodow FROM zawody_wedkarskie WHERE sedzia = "Krzysztof Dobrojewski"
+
+SELECT imie,nazwisko,punkty FROM zawody_wedkarskie,karty_wedkarskie WHERE zawody_wedkarskie.Karty_wedkarskie_id = Karty_wedkarskie.id AND zawody_wedkarskie.id = 4
+
+UPDATE karty_wedkarskie SET punkty = punkty + 2 WHERE karty_wedkarskie.id = 1
